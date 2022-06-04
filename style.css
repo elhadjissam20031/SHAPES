@@ -1,0 +1,38 @@
+* {
+  margin: 5px;
+  margin-left: 150px;
+  padding: 0;
+
+  box-sizing: border-box;
+}
+body {
+  background-color: #2d4970;
+
+  
+}
+
+.triangle {
+  height: 150px;
+  width: 150px;
+  border-bottom: 200px solid red;
+  border-left: 100px solid transparent;
+  border-right: 100px solid transparent;
+  margin-bottom: 105px;
+ 
+}
+
+
+.circle{
+    width: 150px;
+    height: 150px;
+    background-color: white;
+    border-radius: 100%;
+    margin-bottom: 105px;
+}
+.moon{
+    height: 150px;
+    width: 200px;
+    border-left: 50px solid #fff;
+    border-radius: 100%;
+    transform: rotate(-40deg);
+}
